@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.conma.jewel">
+
+    <application >
+        <activity android:name=".JewellaryActivity"/>
+        <activity android:name=".Quantity"/>
+        <activity android:name=".PlaceOrder"/>
+    </application>
+
+</manifest>

@@ -1,0 +1,2 @@
+include ':app', ':customer', ':jewel', ':cars', ':vegitable'
+rootProject.name='ConmaTest'

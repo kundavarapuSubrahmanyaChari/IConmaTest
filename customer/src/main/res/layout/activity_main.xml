@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".CustomerActivity">
+
+    <TextView
+        android:id="@+id/login_customer"
+        android:layout_marginTop="10dp"
+        android:padding="15dp"
+        android:textSize="20dp"
+        android:textColor="#fff"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome!" />
+
+    <RelativeLayout
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@+id/layout1"
+            android:layout_width="match_parent"
+            android:layout_height="250dp">
+            <LinearLayout
+                android:layout_weight="0.5"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:id="@+id/ll_cc"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:layout_width="0dp"
+                    android:layout_weight=".5"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal" >
+
+                    <RelativeLayout
+                        android:visibility="gone"
+                        android:id="@+id/cars_layout"
+                        android:layout_margin="5dp"
+                        android:background="#DDD6D6"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" >
+
+                        <ImageView
+                            android:id="@+id/img_discover"
+                            android:layout_centerHorizontal="true"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:src="@drawable/ic_directions_car_black_24dp" />
+
+                        <TextView
+                            android:layout_centerHorizontal="true"
+                            android:layout_alignParentBottom="true"
+                            android:id="@+id/tv_discover"
+                            android:gravity="center"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingTop="0dp"
+                            android:text="Cars"
+                            android:background="#66000000"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textColor="#FFF"
+                            android:textStyle="bold" />
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_hr"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:layout_width="0dp"
+                    android:layout_weight=".5"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal" >
+                    <RelativeLayout
+                        android:visibility="gone"
+                        android:id="@+id/vegitable_layout"
+                        android:background="#DDD6D6"
+                        android:layout_margin="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" >
+
+                        <ImageView
+                            android:id="@+id/img_qaliber"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:layout_centerHorizontal="true"
+                            android:src="@drawable/ic_healthy_food" />
+
+                        <TextView
+                            android:id="@+id/tv_qaliber"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:layout_alignParentBottom="true"
+                            android:text="Vegitables"
+                            android:background="#66000000"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textColor="#FFF"
+                            android:textStyle="bold" />
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.5"
+                android:visibility="visible"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:id="@+id/ll_ce"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:orientation="horizontal" >
+
+                    <RelativeLayout
+                        android:visibility="gone"
+                        android:id="@+id/jewel_layout"
+                        android:background="#DDD6D6"
+                        android:layout_margin="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:layout_centerHorizontal="true"
+                            android:id="@+id/img_myCourses"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:src="@drawable/ic_diamond" />
+
+                        <TextView
+                            android:layout_alignParentBottom="true"
+                            android:id="@+id/tv_myCourses"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="Jewellary"
+                            android:paddingTop="0dp"
+                            android:background="#66000000"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textColor="#FFF"
+                            android:textStyle="bold" />
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_fmg"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:layout_width="0dp"
+                    android:layout_weight=".5"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal" >
+                    <RelativeLayout
+                        android:visibility="gone"
+                        android:id="@+id/users_layout"
+                        android:background="#DDD6D6"
+                        android:layout_margin="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:id="@+id/img_wishlist"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:layout_centerHorizontal="true"
+                            android:src="@drawable/ic_users" />
+
+                        <TextView
+                            android:layout_alignParentBottom="true"
+                            android:id="@+id/tv_wishlist"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:paddingTop="0dp"
+                            android:text="Users"
+                            android:background="#66000000"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textColor="#FFF"
+                            android:textStyle="bold" />
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:background="@color/colorPrimaryDark"
+        android:padding="5dp"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/logout_layout">
+        <TextView
+            android:textSize="20dp"
+            android:layout_gravity="center"
+            android:textColor="#fff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Logout"/>
+    </LinearLayout>
+
+
+</RelativeLayout>
