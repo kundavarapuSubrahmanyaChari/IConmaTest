@@ -36,6 +36,7 @@ public class CustomerActivity extends AppCompatActivity implements View.OnClickL
         logout = findViewById(R.id.logout_layout);
         login_customer = findViewById(R.id.login_customer);
         user = getIntent().getExtras().getParcelable("UserData");
+        // Add comments on CustomerActivity
 
         Log.i(TAG, "User Feature " + user.getFeature());
         login_customer.setText("Welcome! to "+ user.getUsername());
