@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ConmaTest.iml" filepath="$PROJECT_DIR$/ConmaTest.iml" group="ConmaTest" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="ConmaTest/app" />
+      <module fileurl="file://$PROJECT_DIR$/cars/cars.iml" filepath="$PROJECT_DIR$/cars/cars.iml" group="ConmaTest/cars" />
+      <module fileurl="file://$PROJECT_DIR$/customer/customer.iml" filepath="$PROJECT_DIR$/customer/customer.iml" group="ConmaTest/customer" />
+      <module fileurl="file://$PROJECT_DIR$/jewel/jewel.iml" filepath="$PROJECT_DIR$/jewel/jewel.iml" group="ConmaTest/jewel" />
+      <module fileurl="file://$PROJECT_DIR$/vegitable/vegitable.iml" filepath="$PROJECT_DIR$/vegitable/vegitable.iml" group="ConmaTest/vegitable" />
+    </modules>
+  </component>
+</project>
